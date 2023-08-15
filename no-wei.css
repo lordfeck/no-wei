@@ -1,0 +1,22 @@
+div#no-wei-banner {
+    top: 0; 
+    left: 0;
+    width: 100%;
+  
+    background: #f09e84;
+    border: 2px solid black;
+    padding: 5px;
+    
+    font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
+}
+
+div#nowei-opener {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+div#no-wei-banner a:link {
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
