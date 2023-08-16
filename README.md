@@ -4,9 +4,9 @@ A simple JavaScript banner for your website. It informs Google Chrome netizens o
 
 The banner will only show for Chrome users. It will explain very briefly and politely why they should consider another browser. There is also a link to an online resource that informs of the dangers posed by WEI.
 
-Finally, there is an option to hide the banner, with this preference stored in localstorage. This option may be switched off; that depends how strongly you feel.
+Finally, there is an option to hide the banner, with this preference stored in localstorage. This option may be switched off; that depends how strongly you feel. To switch off the dismissal option, set `allowDismissal = false` in `no-wei.js`.
 
-To switch off the dismissal option, set `allowDismissal = false` in `no-wei.js`.
+An example of how the banner will appear [may be seen here](https://soft.thran.uk/no-wei.html). This example has UA detection turned off, so will be seen by all browsers.
 
 # Why no WEI?
 To quote Greg Farough of the Free Software Foundation:
@@ -18,7 +18,15 @@ This means that the verification service controlled by Google can and *will* be 
 More details [here (OWD)](https://openwebdefenders.org/), [here (FSF)](https://www.fsf.org/blogs/community/web-environment-integrity-is-an-all-out-attack-on-the-free-internet) and [here (El Reg)](https://www.theregister.com/2023/07/27/google_web_environment_integrity/).
 
 # Installing
-Simply include the JavaScript and CSS at the top of your HTML. See `example.html` for an example. This project is written in vanilla JavaScript and uses no dependencies (JQuery or anything).
+Simply include the JavaScript and CSS at the top of your HTML. See `example.html` for an example. The exact steps follow anyway:
+
+Copy `no-wei.css` and `no-wei.js` to your web page assets directory, then include a link to both in all your HTML documents/templates between the `<head> ... </head>` tags.
+
+```
+<link rel="stylesheet" type="text/css" href="$PATH_TO_CSS/no-wei.css">
+<script type="text/javascript" src="$PATH_TO_JS/no-wei.js"></script>
+```
+This project is written in vanilla JavaScript and uses no dependencies (JQuery or anything).
 
 # User-Agent Detection
 Currently a bit basic but this is the quickest way I could make it work without relying upon dependencies. Our user agent detection simply checks the UA string for telling keywords and then deducts which browser is in use.

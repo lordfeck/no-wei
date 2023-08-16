@@ -30,10 +30,12 @@ window.addEventListener("load", function() {
             dismissalNotice = `<a href="#" id="nowei-dismiss">Dismiss this banner</a>. `;
         }
 
-        noWei.innerHTML = `<div id="nowei-opener">Dear Chrome User:</div>
-        <p class="nowei-p">Regrettably, Google is changing the web for the worse. By using Chrome, you are unwittingly helping Google consolidate control over the open Internet through the disastrous WEI standard. This is depriving internet freedom from you and billions of others. Do not help them any further; take a stand!</p>
-        <p class="nowei-p">Consider using a browser that respects your freedom such as <a href="https://www.mozilla.org/en-GB/firefox/new/" target="_blank">Firefox</a>, <a href="https://brave.com/" target="_blank">Brave</a> or <a href="https://vivaldi.com/" target="_blank">Vivaldi</a>.</p>
-        <div><a href="https://openwebdefenders.org/" target="_blank">Find out more about WEI and its dangers here</a>. ${dismissalNotice}</div>`;
+        noWei.innerHTML = `<div id="nowei-innerwrap">
+            <div id="nowei-opener">Dear Chrome User:</div>
+            <p class="nowei-p">Regrettably, Google is changing the web for the worse. By using Chrome, you are unwittingly helping Google consolidate control over the open Internet through the disastrous WEI standard. This is depriving internet freedom from you and billions of others. Do not help them any further; take a stand!</p>
+            <p class="nowei-p">Consider using a browser that respects your freedom such as <a href="https://www.mozilla.org/en-GB/firefox/new/" target="_blank">Firefox</a>, <a href="https://brave.com/" target="_blank">Brave</a> or <a href="https://vivaldi.com/" target="_blank">Vivaldi</a>.</p>
+            <div><a href="https://openwebdefenders.org/" target="_blank">Find out more about WEI and its dangers here</a>. ${dismissalNotice}</div>
+            </div>`;
 
         document.body.insertAdjacentElement("afterbegin", noWei);
 

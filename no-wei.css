@@ -1,18 +1,24 @@
 div#no-wei-banner {
     background: #f09e84;
-    border: 2px solid black;
+    border: 2px solid #8c0e0e;
     padding: 5px;
     width: auto;
     height: auto;
     
     font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
+    background: #ea8c6f;
+}
+
+div#nowei-innerwrap {
+    padding: 5px 10px 5px 10px;
+    background-color: #f09e84;
+    border-radius: 5px;
 }
 
 div#nowei-opener {
     font-weight: bold;
     font-size: 1.4em;
     color: #8c0e0e;
-    text-shadow: #eee6d6 1px 1px 3px;
 }
 
 div#no-wei-banner a:link {
