@@ -1,11 +1,9 @@
 div#no-wei-banner {
-    top: 0; 
-    left: 0;
-    width: 100%;
-  
     background: #f09e84;
     border: 2px solid black;
     padding: 5px;
+    width: auto;
+    height: auto;
     
     font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
 }
@@ -13,6 +11,8 @@ div#no-wei-banner {
 div#nowei-opener {
     font-weight: bold;
     font-size: 1.4em;
+    color: #8c0e0e;
+    text-shadow: #eee6d6 1px 1px 3px;
 }
 
 div#no-wei-banner a:link {
