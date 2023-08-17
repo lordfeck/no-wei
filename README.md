@@ -36,3 +36,6 @@ We currently show the banner only to Chrome. This may change; we could include o
 Vivaldi will [usually send the same user agent as Chrome](https://vivaldi.com/blog/user-agent-changes/), sorry Vivaldi users, you'll get the banner too. This is also a problem with Brave.
 
 [Sample User-Agent sources](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) used for this project; it is MDN's fault if I got any wrong ;)
+
+# Branching
+Dev contains the latest untested commit, Master contains the stable version. It is this way because this project is too simple to have formal releases.
