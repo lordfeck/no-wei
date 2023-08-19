@@ -1,4 +1,4 @@
-div#no-wei-banner {
+div#nowei-banner {
     background: #f09e84;
     border: 2px solid #8c0e0e;
     padding: 5px;
@@ -7,6 +7,7 @@ div#no-wei-banner {
     
     font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
     background: #ea8c6f;
+    font-size: 0.9em;
 }
 
 div#nowei-innerwrap {
@@ -21,8 +22,19 @@ div#nowei-opener {
     color: #8c0e0e;
 }
 
-div#no-wei-banner a:link {
+div#nowei-banner a:link {
     color: blue;
     text-decoration-line: underline;
     text-decoration-color: blue;
 }
+
+div#nowei-dismiss-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+button#nowei-dismiss {
+    color: black;
+}
+
