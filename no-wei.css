@@ -8,6 +8,9 @@ div#nowei-banner {
     font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
     background: #ea8c6f;
     font-size: 0.9em;
+
+    color: black;
+    text-align: left;
 }
 
 div#nowei-innerwrap {
