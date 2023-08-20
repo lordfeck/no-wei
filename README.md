@@ -1,5 +1,5 @@
-NO-WEI!
-=========
+NO-WEI Banner
+=============
 A simple JavaScript banner for your website. It informs Google Chrome wielding netizens of the coming abhorrent attack on their freedom and privacy from proposed WEI (Web Environment Integrity) anti-feature.
 
 The banner will only show for Chrome users. It will explain very briefly and politely why they should consider another browser. There is also a link to an online resource that informs of the dangers posed by WEI.
