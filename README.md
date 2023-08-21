@@ -6,7 +6,7 @@ The banner will only show for Chrome users. It will explain very briefly and pol
 
 Finally, there is an option to hide the banner, with this preference stored in localstorage. This option may be switched off; that depends how strongly you feel. To switch off the dismissal option, set `allowDismissal = false` in `no-wei.js`.
 
-An example of how the banner will appear [may be seen here](https://soft.thran.uk/no-wei.html). This example has UA detection turned off, so will be seen by all browsers.
+A live example of how the banner will work in browsers [may be seen here](https://soft.thran.uk/no-wei.html). This example has UA detection turned off, so will be seen by all browsers.
 
 # Why no WEI?
 To quote Greg Farough of the Free Software Foundation:
@@ -41,3 +41,6 @@ Vivaldi will [usually send the same user agent as Chrome](https://vivaldi.com/bl
 
 # Branching
 Dev contains the latest untested commit, Master contains the stable version. It is this way because this project is too simple to have formal releases.
+
+# Example image
+![no-wei banner example image](no-wei-example1.png)
