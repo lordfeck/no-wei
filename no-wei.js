@@ -15,11 +15,12 @@ window.addEventListener("load", function() {
     const uaHasSafari = navigator.userAgent.includes("Safari");
     const uaHasOpera = navigator.userAgent.includes("OPR");
     const uaHasEdge = navigator.userAgent.includes("Edg");
+    const isBrave = (window.navigator.brave !== undefined && window.navigator.brave.isBrave.name === "isBrave");
 
     const isDismissed = window.localStorage["nowei-isDismissed"];
 
     // User agent is okay, or banner was dismissed
-    if (!uaHasChrome || uaHasFox || uaHasOpera || uaHasEdge || allowDismissal && isDismissed === "true") { 
+    if (!uaHasChrome || uaHasFox || uaHasOpera || uaHasEdge || isBrave || allowDismissal && isDismissed === "true") { 
         return;
     } else if (uaHasChrome && uaHasSafari) { // UA is Chrome
         const noWei = document.createElement("div");
