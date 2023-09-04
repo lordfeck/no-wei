@@ -40,7 +40,7 @@ Vivaldi will [usually send the same user agent as Chrome](https://vivaldi.com/bl
 [Sample User-Agent sources](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) used for this project; it is MDN's fault if I got any wrong ;)
 
 # Branching
-Dev contains the latest untested commit, Master contains the stable version. It is this way because this project is too simple to have formal releases.
+Master contains the current release, Dev contains the latest untested commit. *PRs are very welcome but please target them to dev, thanks!*
 
 # Example image
 ![no-wei banner example image](no-wei-example1.png)
