@@ -31,11 +31,11 @@ Copy `no-wei.css` and `no-wei.js` to your web page assets directory, then includ
 This project is written in vanilla JavaScript and uses no dependencies (JQuery or anything).
 
 # User-Agent Detection
-Currently a bit basic but this is the quickest way I could make it work without relying upon dependencies. Our user agent detection simply checks the UA string for telling keywords and then deducts which browser is in use.
+Currently a bit basic but this is the quickest way I could make it work without relying upon dependencies. We use a mixture of User Agent and `window.navigator` namespace prodding to determine which browser is in use.
 
 We currently show the banner only to Chrome. This may change; we could include other browsers when their position on WEI becomes clear. Currently, no concrete position on WEI has been given for Edge, Opera or Safari (though Safari uses its own equivalent PATs that are [allegedly more private](https://www.theregister.com/2023/07/27/google_web_environment_integrity/)).
 
-Vivaldi will [usually send the same user agent as Chrome](https://vivaldi.com/blog/user-agent-changes/), sorry Vivaldi users, you'll get the banner too. This is also a problem with Brave.
+Vivaldi will [usually send the same user agent as Chrome](https://vivaldi.com/blog/user-agent-changes/), sorry Vivaldi users, you'll get the banner too.
 
 [Sample User-Agent sources](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) used for this project; it is MDN's fault if I got any wrong ;)
 
