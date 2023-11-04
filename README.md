@@ -8,6 +8,15 @@ Finally, there is an option to hide the banner, with this preference stored in l
 
 A live example of how the banner will work in browsers [may be seen here](https://soft.thran.uk/no-wei.html). This example has UA detection turned off, so will be seen by all browsers.
 
+# November 2023 Update - WEI has been retracted by Google!
+As of November 2023, Google has announced that it will not be implementing WEI in its browser.
+
+[VICTORY](https://www.theregister.com/2023/11/02/google_abandons_web_environment_integrity/) (for now). It may not have been much, but this humble banner will have been part of that pressure against Google. Thanks to everyone who installed it!
+
+We must remain vigilant, because due to Google's monopoly and business interests this 'feature' will surely reassert itself in another guise.
+
+Due to this news, the NO-WEI banner will be reworked into a banner that protests the Google Privacy sandbox, which sends a list of your 'interests' to advertisers. [This one is actually now live in Chrome.](https://www.theregister.com/2023/09/06/google_privacy_popup_chrome/) Classy.
+
 # Why no WEI?
 To quote Greg Farough of the Free Software Foundation:
 
